@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+
+@font-face {
+  font-family: Android;
+  src: url(IDroid.otf) format(opentype);
+  font-weight: normal;
+}
+
+:root{
+
+  --fonte-bebas: Bebas Neue,Cursive;
+  --fonte-droid: Android,Cursive;
+}
+header{
+  background-image: linear-gradient(to bottom, #1A5C37,#1d683f,#307e53);
+  min-height: 150px;
+  padding-top: 20px ;
+
+}
+
+nav{
+  padding: 10px;
+  margin-top: 10px;
+
+}
+
+nav >a{
+padding: 10px;
+  color: white;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+nav >a:hover{
+  background-color:#32B46C;
+  color: #1d683f;
+  font-weight: bolde;
+ 
+
+}
+
+.externo{
+  background-color: #7ebd9a;
+  text-decoration: none;
+   color: #1d683f;
+   font-weight: bolder;
+}
+
+ h1{
+    color: white;
+    font-family: var(--fonte-bebas);
+    text-align: center;
+    font-size: 3em;
+}
+
+.yu{
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: var(--fonte-bebas);
+  font-size: 1.2em;
+  margin: auto;
+}
+
+  body{
+    background-color: #b4d6c2ca;
+  }
+
+  main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 15px;
+    
+  }
+   
+  main img{
+    width: 100%;
+  }
+  p{
+   text-align: justify;
+   text-indent: 20px;
+   margin: 5px 0px;
+   line-height: 2em;
+   
+  }
+  
+  #titulo{
+   color: #307e53;
+   font-size: 30px;
+   text-align: center;
+   font-family: var(--fonte-droid);
+    
+  
+  }
+
+  .op{
+    background-image: linear-gradient(to right,#aed9c3,#d0f4df,#C9ECD8,#E0F5E9,#EEF9F2);
+    color: #325f46;
+    text-decoration: solid;
+    text-align: left;
+    padding: 1px;
+    font-family: var(--fonte-droid);
+  
+  }
+  .introducao{
+   padding: 10px;
+  }
+
+  .versao{
+    padding: 4px;
+  }
+
+  
+
+  .irina{
+    padding: 4px;
+   
+  }
+
+  .kk{
+    background-image: linear-gradient(to right,#aed9c3,#d0f4df,#C9ECD8,#E0F5E9,#EEF9F2);
+    color: #325f46;
+    text-decoration: solid;
+    text-align: left;
+    padding: 2px;
+    font-family: var(--fonte-droid);
+   }
+
+  
+
+  .video{
+    background-color:#1A5C37;
+    margin: 0px -15px 10px -15px;
+   position: relative;
+    padding: 10px;
+    padding-bottom: 59%;
+    }
+
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+    .uu{
+      background-color: rgb(36, 196, 87);
+      padding: px;
+      margin-top: 10px;
+      border-radius: 15px;
+    }
+
+     .yy{
+      padding: 10px;
+      border: #32B46C;
+      background-color: #aed9c3;
+      
+     }
+     
+     .bb{
+      text-align: left;
+      position: relative;
+      background-color: #1A5C37;
+      padding: 10px;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      border-bottom: 10px;
+     }
+
+     main >a{
+      background-color: #00ff73;
+     }
+
+     .list{
+      list-style-position: inside;
+      columns: 2;
+     }
+      aside{
+        border-radius: 10px;
+      }
+
+
+     
+
+     .rodape{
+      background-color: #1A5C37;
+      text-align:center;
+     min-height: 20px;
+      color: white;
+      padding: 3px;
+     }
